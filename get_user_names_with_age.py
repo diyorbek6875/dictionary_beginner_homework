@@ -14,7 +14,7 @@ def get_user_names_with_age(data:list, age:int) -> list:
             a=i['name']
         
     return a
-age=int(input('How old unknown object>>>>'))
+age=int(input('How old is unknown object>>>>'))
 data = [
   {
     'name': 'John', 
