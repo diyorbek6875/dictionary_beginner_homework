@@ -10,6 +10,7 @@ def count_jobs(data:list, job:str) -> int:
     
     """
     count = 0
+    print(len(data))
     for i in data:
         if i['job'] == job:
             count += 1
@@ -25,4 +26,4 @@ data1=[
   }
   ]
     
-print(count_jobs(data=data1, job='asdf'))
+print(count_jobs(data=data1, job='Developer'))
